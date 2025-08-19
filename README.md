@@ -38,21 +38,6 @@ Web browser with JavaScript support
 sql
 CREATE DATABASE library_management;
 
-📁 Project Structure
-text
-src/
-├── main/
-│   ├── java/com/example/library/
-│   │   ├── entity/          # JPA entities (Book, Member, BorrowRecord)
-│   │   ├── repository/      # Spring Data repositories
-│   │   ├── service/         # Business logic layer
-│   │   ├── controller/      # REST API controllers
-│   │   └── LibraryApplication.java
-│   └── resources/
-│       ├── static/          # Frontend files
-│       │   ├── js/app.js
-│       │   └── index.html
-│       └── application.properties
 ⚙️ Configuration
 Update src/main/resources/application.properties:
 
